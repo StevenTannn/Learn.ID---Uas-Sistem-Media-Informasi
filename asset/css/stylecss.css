@@ -1,0 +1,229 @@
+.top-nav{
+  background-color: #DCDBDB;
+}
+
+.navbar1-color{
+    background-color: #C4A099;
+    color: black;
+}
+a{
+    color: palegreen;
+}
+a:hover{
+    color: palegreen;
+}
+.mainimg{
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+}
+.mainaboutusimg{
+    background-image: url(aboutushome.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40vh;
+}
+.maincoursesimg{
+    background-image: url(courses.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40vh;
+}
+.secondimg{
+    background-image: url(home1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.bigtext{
+    top: 20%;
+    left: 8%;
+    color: white;
+    width: 60vh;
+    position: relative;
+}
+.aboutustext{
+    top: 40%;
+    left: 35%;
+    color: white;
+    width: 60vh;
+    position: relative;
+}
+
+.containeratas,
+.containertengah {
+  width: 100%;
+    height: 30vh;
+  position: absolute;
+  top: 55%;
+    left: 10vh;
+}
+.containertengah {
+  z-index: 10;
+    background-color: white;
+      border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.tengahpage{
+    width: 100%;
+}
+
+.responsivehome{
+    width: 20%;
+    height: 80px;
+}
+
+.rcolor2{
+    background-color: #1D1D1D;
+    color: white;
+    width: auto;
+    height: 8vh;
+}
+.nav-gabung4 {
+    width: auto;
+    background-color: black;
+    height: 60vh;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 30px;
+    transition: width 0.4s linear;
+    }
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+.search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    background-color: greenyellow;
+    text-decoration:none;
+    }
+.searchbar1{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 60vh;
+    }
+
+.search_input1{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 30px;
+    transition: width 0.4s linear;
+    }
+
+.searchbar1:hover > .search_input1{
+    padding: 0 10px;
+    width: 300px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+.searchbar1:hover > .search_icon1{
+    background: white;
+    color: #e74c3c;
+    }
+
+.search_icon1{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    background-color: greenyellow;
+    text-decoration:none;
+    }
+.btn-success {
+      color: #fff;
+      background-color: palegreen;
+      border-radius: 35px;
+      border: 1px solid rgba(21, 87, 36, 0.75);
+}
+
+.textdesc {
+  color: black;
+}
+
+.textdesc em {
+  color: palegreen;
+}

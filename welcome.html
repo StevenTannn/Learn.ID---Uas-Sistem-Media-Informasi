@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LEARN.ID Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="asset/css/stylecss.css" rel="stylesheet" type="text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+    window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+    </script>
+</head>
+
+<body>
+  <div class="row rcolor2">
+        <div class="col-6">
+          <img src="asset/img/icon.png" style="width: auto; height: 7vh;">
+          </div>
+        <div class="col-6">
+            <div class="row d-flex justify-content-between">
+                <div class="col-2 mt-4">
+                </div>
+                <a href="welcome.html"><div class="col-sm-2 mt-4 active" style="color: #32DC89;">
+                    Home
+                </div></a>
+                  <a href="course.html"><div class="col-sm-2 mt-4" style="color: #32DC89;">
+                    Courses
+                    </div></a>
+                <div class="col-sm-2 mt-4 first" onclick="smoothScroll(document.getElementById('second'))" style="color: #32DC89;">
+                    Testimonial
+                </div>
+                <a href="aboutus.html"><div class="col-sm-2 mt-4" style="color: #32DC89;">
+                    About
+                </div></a>
+                <div class="col-2 mt-3" style="color: #32DC89;">
+                     <button type="button" class="btn btn-success text-center">Sign In</button>
+                </div>
+                <div class="col-sm-2 mt-4">
+                </div>
+            </div>  
+        </div>
+      </div>
+    <div class="mainimg">
+        <div class="bigtext">
+            <span style="font-size: 3vw;">Learn new passion for</span><br>
+            <span style="font-size: 3vw;">learning new things.</span><br>
+            <span style="font-size: 1vw">Was certainly remaining new courses</span><br>
+            <span style="font-size: 1vw">with experience and certified tutor.</span><br>
+             <div class="searchbar mt-3">
+            <input class="search_input" type="text" name="" placeholder="Search course....">
+            <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="containeratas">
+        <div class="d-flex align-items-center row containertengah rounded mb-0 w-75 ">
+            <div class="col-4">
+                <div class="row ml-5">
+                    <img src="asset/img/certificate.png" class="responsivehome">
+                </div>
+                <div class="row ml-5 mt-2 mb-2">
+                    <span style="font-weight: bolder;">Certificate</span>
+                </div>
+                <div class="row ml-5">
+                    <span>You will get certification<br>of each class that that you<br>have completed</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row ml-5">
+                    <img src="asset/img/expert.png" class="responsivehome">
+                </div>
+                <div class="row ml-5 mt-2 mb-2">
+                    <span style="font-weight: bolder;">Expert Instructors</span>
+                </div>
+                <div class="row ml-5">
+                    <span>You will be guided by<br> instructors who are<br>experienced in their fields</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row ml-5">
+                    <img src="asset/img/learnfrom.png" class="responsivehome">
+                </div>
+                <div class="row ml-5 mt-2 mb-2">
+                    <span style="font-weight: bolder;">Learn from anywhere</span>
+                </div>
+                <div class="row ml-5">
+                    <span>Your can learn from anywhere<br>because online classes can be<br>accessed from anywhere</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tengahpage">
+        <h3 style="text-align: center; margin-top: 30vh;">Learn.id is trusted by +50.000 student</h3>
+        <p style="text-align: center; margin-top: 3vh;">Learn.id has served more than 50.000 students who are satisfied because we teach<br>with a proven system in many countries</p>
+    </div>
+        <div class="secondimg mt-5">
+        <div class="row">
+            <div class="col-3">
+                <h1 style="text-align: center; margin-top: 15vh; color: white;">20k</h1>
+                <p style="text-align: center; color: white;">Graduated Students</p>
+            </div>
+            <div class="col-3">
+                <h1 style="text-align: center; margin-top: 15vh; color: white;">150</h1>
+                <p style="text-align: center; color: white;">Expert Instructors</p>
+            </div>
+            <div class="col-3">
+                 <h1 style="text-align: center; margin-top: 15vh; color: white;">600k</h1>
+                <p style="text-align: center; color: white;">Books in our Library</p>
+            </div>
+            <div class="col-3">
+                <h1 style="text-align: center; margin-top: 15vh; color: white;">15k</h1>
+                <p style="text-align: center; color: white;">Students get employed</p>
+            </div>
+        </div>
+        </div>
+    <div>
+        <h3 style="text-align: center;" class="mt-5 mb-5"> Our Trending Courses</h3>
+    <div class="d-flex flex-row flex-nowrap overflow-auto mb-5">
+        <div class="card card-block mx-2" style="min-width: 300px;">
+            <img src="asset/img/product1.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">The art and Practice of<br>Leadership</h4>
+          <p class="ml-3">Rp. 99,000</p>
+          <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>    
+        </div>
+        <div class="card card-block mx-2" style="min-width: 300px;">
+            <img src="asset/img/product2.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">Introduction to Resume<br>Writing</h4>
+          <p class="ml-3">Rp. 99,000</p>
+           <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>      
+        </div>
+        <div class="card card-block mx-2" style="min-width: 300px;">
+             <img src="asset/img/product3.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">How to Write a Powerful Speech</h4>
+          <p class="ml-3">Rp. 99,000</p>
+          <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>        
+        </div>
+        <div class="card card-block mx-2" style="min-width: 300px;">
+             <img src="asset/img/product4.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">Introduction to basic<br>Writing</h4>
+          <p class="ml-3">Rp. 99,000</p>
+           <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>     
+        </div>
+        <div class="card card-block mx-2" style="min-width: 300px;">
+             <img src="asset/img/product3.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">How to Write a Powerful Speech</h4>
+          <p class="ml-3">Rp. 99,000</p>
+           <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>    
+        </div>
+        <div class="card card-block mx-2" style="min-width: 300px;">
+             <img src="asset/img/product4.png" style="width:auto;height: 30vh;">
+          <h4 class="ml-3">Introduction to basic<br>Writing</h4>
+          <p class="ml-3">Rp. 99,000</p>
+           <button type="button" class="btn btn-success text-center mb-3" style="background-color: green;"><b>Enroll The Courses</b></button>        
+        </div>
+        </div>
+</div>
+    <div class="row mb-5 mt-5">
+        <div class="col-sm-6 mt-5">
+        <h4 style="text-align: right;">Education is the Foundation upon<br>which we build our future</h4>
+        <p style="text-align: right;">Education is an important foundation to guarentee<br>future life because whatever you are ewquires education<br>to increase trust better.</p>
+        </div>
+        <div class="col-sm-6">
+        <img src="asset/img/home3.png" style="width:auto;height: 30vh;">
+        </div>
+    </div>
+    <div class="row mt-5 mb-5 second" style="background-color: lightgray;" id="second">
+        <div class="col mt-5 mb-3">
+            <h1 style="text-align: center;" class="mb-5">What Our Customer Say</h1>
+            <div class="row mt-5 mb-5">
+                <div class="col-sm-4" style="margin-left: 20vh;">
+                    <p>Education is important foundation to guarentee<br>future life because whatever you are ewquires education<br>to increase trust better.</p>
+                    <img src="asset/img/icon1.png" style="width:auto;height: 13vh;">
+                    <h4>Adam</h4>
+                    <h6>Sales Manager</h6>
+                </div>
+                <div class="col-sm-6" style="margin-left: 8vh;">
+                    <p>Education is important foundation to guarentee<br>future life because whatever you are ewquires education<br>to increase trust better.</p>
+                    <img src="asset/img/icon2.png" style="width:auto;height: 13vh;">
+                    <h4>Christine</h4>
+                    <h6>Sales Manager</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-5">
+        <h1 style="text-align: center;">Any question in mind? Don't Worry</h1>
+        <h1 style="text-align: center;">Contact Us.</h1>
+        <button type="button" class="btn btn-success text-center" style="margin-left: 80vh;"><b>Contact Us</b></button>
+    </div>
+    <div class="row mt-5" style="background-color: lightgray;">
+        <div class="col-5 mt-4 mb-4">
+            <h3 style="text-align: center;">Addmission are now open</h3>
+            <p style="text-align: center;">Addmission are now open you can register<br> through the button</p>
+        </div>
+        <div class="col-5"></div>
+        <div class="col-2">
+            <button type="button" class="btn btn-success text-center mt-5"><b>Enrool Now</b></button>
+        </div>
+    </div>
+
+<div class="nav-gabung4">
+    <div class="row">
+    <div class="col-5">
+        <img src="asset/img/icon.png" style="width: auto; height: 5vh; " class="ml-5 mt-5">
+    </div>
+    <div class="col-2 mt-5 mb-5">
+        <p style="color: white;" class="mt-3">About</p>
+        <p style="color: white;">Service</p>
+        <p style="color: white;">Team<p>
+        <p style="color: white;">Privacy Policy</p>
+        <p style="color: white;">Testimonial</p>
+        <p style="color: white;">Support</p>
+        </div>
+    <div class="col-5 mt-5 mb-5">
+        <h3 style="color: white;" class="mt-3">Subscribe our Newsletter</h3>
+        <p style="color: white;">Was certainly remaining new courses</p>
+        <p style="color: white;">with experience and certified tutor</p>
+        <div class="searchbar1">
+            <input class="search_input1" type="email" name="" placeholder="email@example.com">
+            <a href="#" class="search_icon1"><i class="fa fa-paper-plane"></i></a>
+            </div>
+        </div>
+         <div class=" col-12 copyright text-center mt-4">
+                <p style="color: white;">2020 Learn.id, All Right reserved</p>
+                <p style="color: white;">Developed by Steven Putra Tanoto 2020</p>
+            </div>
+    </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="script/scriptwelcome.js"></script>
+</body>
+</html>
